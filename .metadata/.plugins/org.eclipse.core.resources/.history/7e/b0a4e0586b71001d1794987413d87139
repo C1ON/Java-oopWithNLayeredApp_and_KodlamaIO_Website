@@ -1,0 +1,22 @@
+package kodlamaIO;
+
+import kodlamaIO.business.CourseManager;
+import kodlamaIO.business.InstructorManager;
+import kodlamaIO.dataAccess.HibernateCourseDao;
+import kodlamaIO.dataAccess.HibernateInstructorDao;
+import kodlamaIO.entities.Course;
+import kodlamaIO.entities.Instructor;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		Instructor instructor = new Instructor(1, "Engin", "Demirog");
+		InstructorManager instructorManager = new InstructorManager(new HibernateInstructorDao());
+		instructorManager.add(instructor);
+		
+		Course course = new Course(1,"Java",-1);
+		CourseManager courseManager = new CourseManager(new HibernateCourseDao());
+		courseManager.add(course);
+	}
+
+}

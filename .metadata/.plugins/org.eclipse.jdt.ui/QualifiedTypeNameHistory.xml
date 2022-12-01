@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.entities.Product"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.JdbcProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.Main"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.InstructorDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.entities.Instructor"/>
+    <fullyQualifiedTypeName name="kodlamaIO.business.InstructorManager"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.JdbcInstructorDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.HibernateInstructorDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.CourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.business.CourseManager"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.HibernateCourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.entities.Course"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.CategoryDao"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="kodlamaIO.entities.Category"/>
+    <fullyQualifiedTypeName name="kodlamaIO.business.CategoryManager"/>
+    <fullyQualifiedTypeName name="kodlamaIO.dataAccess.HibernateCategoryDao"/>
+    <fullyQualifiedTypeName name="kodlamaIO.Main"/>
+    <fullyQualifiedTypeName name="kodlamaIO.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIO.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIO.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="kodlamaIO.core.logging.Logger"/>
+</qualifiedTypeNameHistroy>

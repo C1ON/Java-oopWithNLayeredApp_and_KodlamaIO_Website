@@ -1,0 +1,16 @@
+package kodlamaIO;
+
+import kodlamaIO.business.InstructorManager;
+import kodlamaIO.dataAccess.HibernateInstructorDao;
+import kodlamaIO.dataAccess.JdbcInstructorDao;
+import kodlamaIO.entities.Instructor;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Instructor instructor = new Instructor(1, "Engin", "Demirog");
+		InstructorManager instructorManager = new InstructorManager(new JdbcInstructorDao());
+		instructorManager.add(instructor);
+	}
+
+}

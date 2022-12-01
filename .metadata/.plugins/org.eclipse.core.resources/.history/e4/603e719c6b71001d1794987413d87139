@@ -1,0 +1,20 @@
+package kodlamaIO.business;
+
+import kodlamaIO.dataAccess.CategoryDao;
+import kodlamaIO.entities.Category;
+
+public class CategoryManager {
+
+	private CategoryDao categoryDao;
+
+	public CategoryManager(CategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+	}
+	
+	public void add(Category category) {
+		if(category.getName().equals(category.getName())) {
+			throw new Exception("Bu isimde zaten bir kategori var!");
+		}
+	}
+	
+}
